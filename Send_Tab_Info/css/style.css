@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#perviy_otpravka {
+    display: none;
+}
+
+#vtoroy_otpravka {
+    
+    display: none;
+}
+
+input {
+    text-align: center;
+    width: 85px;
+    height: 40px;
+    font-size: 15px;
+}
+
+button {
+    width: 85px;
+    height: 40px;
+    font-size: 15px;
+}
+
+select,
+option {
+    width: 85px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.content .obshiy {
+    width: 50%;
+    float: left;
+}
+
+.content #result {
+    width: 50%;
+    float: right;
+}
+
+.main_blocki {
+    position: relative;
+    min-height: 100%;
+}
+
+.content {
+    height: 100%;
+}
+#close_tab{
+    position: static;
+}
+#tab table,th,td{
+    border: 2px solid black;
+    text-align: center;
+}
+#tab th,td{
+    min-width: 100px;
+    
+    
+}
+.info_res_two{
+    display: flex;
+    gap: 10px;
+}
+.two_batons{
+    display: flex;
+    gap: 10px;
+}

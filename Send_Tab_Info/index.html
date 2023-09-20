@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="main_blocki">
+            <div class="content">
+                <div id="obshiy">
+                    <select name="spisok" id="spis">
+                        <option value="1" id="opt1">Данные</option>
+                        <option value="2" id="opt2">Таблица</option>
+
+                    </select>
+                    <button onclick="obshak()">Send</button>
+                </div>
+                <div id="perviy_otpravka">
+                    <input type="text" value="1" id="ID" readonly>
+                    <input type="text" name="" id="Name_One" placeholder="Запись">
+                    <button onclick="perviy()">Send</button>
+                </div>
+                <div id="vtoroy_otpravka">
+                    <div class="info_res_two">
+                        <input type="number" value="1" id="ID" readonly>
+                        <input type="text" name="" id="Name_Two" placeholder="Name Table">
+                        <input type="text" name="" id="add_info" placeholder="Add info">
+                        <button onclick="vtoroy()" id="butt_click">Send</button>
+                        <div class="two_batons">
+                            <div id="closeButtonContainer"></div>
+                            <div id="dobav_danie"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="result_div">
+                    <p id="result"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
